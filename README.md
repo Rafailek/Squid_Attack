@@ -1,5 +1,4 @@
 # Squid Attack
----
 
 Controls for Player 1:
 - Move | WASD
