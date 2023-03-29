@@ -14,7 +14,7 @@ The object of the game is to collect more points that your opponent.
 - The pellets grant you **1 point**
 - The strawberries grant you **3 Points** and give you the ability to shoot
 
-Every level also has at least one computer squid moving aroung. Touching it will stun you for a short period of time, so avoid them if possible.
+Every level also has at least one computer squid moving around. Touching it will stun you for a short period of time, so avoid them if possible.
 
 When you collect a strawberry, a gauge will fill up next to your score. Press the shoot key, to fire a strawberry in the dirrection you are currently going. Hitting your opponent will stun them. You can't stun the computer squids in any way.
 
