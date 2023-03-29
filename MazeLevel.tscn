@@ -240,7 +240,7 @@ tile_data = PoolIntArray( 0, 0, 327682, 1, 0, 131073, 2, 0, 131073, 3, 0, 131073
 
 [node name="Elevator" parent="." instance=ExtResource( 7 )]
 position = Vector2( 504, 288 )
-frame = 3
+frame = 1
 
 [node name="Food" type="TileMap" parent="."]
 scale = Vector2( 3, 3 )
