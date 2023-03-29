@@ -11,21 +11,25 @@ onready var bullet_path = preload("res://Bullet.tscn")
 func _input(event):
 	if dead:
 		return
-
-	if event.is_action_pressed("p1_up"):
+	
+	if event.get_action_strength("p1_up") > 0.7:
 		direction = Vector2(0,-1)
 		$Rotating.rotation_degrees = 0
-	if event.is_action_pressed("p1_down"):
+	elif event.get_action_strength("p1_down") > 0.7:
 		direction = Vector2(0,1)
 		$Rotating.rotation_degrees = 180
-	if event.is_action_pressed("p1_left"):
+	elif event.get_action_strength("p1_left") > 0.7:
 		direction = Vector2(-1,0)
 		$Animation.play("Left")
 		$Rotating.rotation_degrees = -90
-	if event.is_action_pressed("p1_right"):
+	elif event.get_action_strength("p1_right") > 0.7:
 		direction = Vector2(1,0)
 		$Animation.play("Right")
 		$Rotating.rotation_degrees = 90
+	
+	if event.is_action_pressed("ui_cancel"):
+		get_tree().change_scene("res://TitleScreen.tscn")
+	
 	if event.is_action_pressed("p1_shoot"):
 		if loaded:
 			shoot()
