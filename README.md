@@ -16,7 +16,7 @@ The object of the game is to collect more points that your opponent.
 
 Every level also has at least one **computer controlled squid** moving around. Touching them will stun you for a short period of time, so avoid them if possible.
 
-When you collect a strawberry, a gauge will fill up next to your score. Press the shoot key, to fire a strawberry in the dirrection you are currently going. Hitting your opponent will stun them. *You can't stun the computer squids in any way.*
+When you collect a strawberry, a gauge will fill up next to your score. Press the shoot key, to fire a strawberry in the dirrection you are currently going. Hitting your opponent will stun them. *You can't stun the computer controlled squids in any way.*
 
 Once all pellets and strawberries are collected, a portal will open up. When one of the players touch it, the next level will begin.
 
